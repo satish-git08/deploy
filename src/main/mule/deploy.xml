@@ -16,7 +16,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-"succesfully deployed"]]></ee:set-payload>
+"succesfully deployed the application"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="898cbe42-f8d7-4ebb-ad5d-99b67547275e" message="#[payload]"/>
